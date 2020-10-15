@@ -1,0 +1,99 @@
+import React from 'react'
+
+function AgencyNewEvent() {
+    return (
+        <div>	
+	
+        {/*	<!------------------------------------Body--------------------------------------------------------------->*/}
+            <br/><br/>
+        
+            <div class="container">
+                <form>																
+                    <div class="row col-md-12">						
+                        <h3>Add New Event</h3>
+                        <br/><br/>						
+                    </div>						
+                    <div class="row col-md-12">	
+                        <div class="jumbotron col-md-6" align="center">
+                            <img src="images/upload_image.png" class="img-fluid" alt=""/>												
+                                <div class="form-group">
+                                    <div class="upload-btn-wrapper">
+                                        <button class="ui secondary basic button">Upload an image</button>
+                                        <input type="file" name="myfile" accept="image/*" />
+                                    </div>
+                                </div>																
+                        </div>							
+                    </div>											
+                    <div class="row col-md-12">
+                        <h4 class="card-title"><img src="images/umbrella.png" style={{width:"20px",height:"20px",paddingBottom:"1px",backgroundColor:"yellow"}} alt=""/>&nbsp; Description</h4>
+                    </div>
+                    <br/>																
+                    <div class="row col-md-11">
+                        <h5 class="col-md-2">Title</h5>										
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="title" />
+                        </div>
+    
+                        <h5 class="col-md-2">Destination</h5>										
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="destination"/>
+                        </div>
+                    </div>	
+                    <br/>								
+                    <div class="row col-md-11">
+                        <h5 class="col-md-3">Departure Date</h5>										
+                        <div class="col-md-3">
+                            <input type="date" class="form-control" name="date" />
+                        </div>
+                        <h5 class="col-md-2">Package Price</h5>										
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="price"/>
+                        </div>
+                    </div>		
+                    <br/>
+                    <div class="row col-md-11">
+                        <h5 class="col-md-2">Duration(Days)</h5>										
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="days" />
+                        </div>									
+                    </div>	
+                    <br/>
+                    <div class="row col-md-11">			
+                        <h5 class="card-title" style={{backgroundColor:"#2B3856",color:"white",padding:"5px"}} >Package Inclusions</h5>
+                    </div>
+                    <br/>
+    
+                    <div class="row col-md-8" id="header">	
+                        <ul class="list-group list-group-flush col-md-12" id="ul"></ul>	
+                    </div>
+                    
+                    <div class="row col-md-8">
+                        <div class="col-md-8">
+                            <textarea id="comment" rows="2" cols="60" placeholder=" Add Service that u provide in this Event" class="col-md-10"></textarea>
+                        </div>
+                        <div col-md-2>									
+                            <button type="button" class="ui violet button tiny" onclick="new_element()">Add</button>
+                        </div>
+                    </div>							
+                    <br/>
+    
+                    <div class="row col-md-11">			
+                        <h5 class="card-title" style={{backgroundColor:"#2B3856",color:"white",padding:"5px"}} >Full Plan</h5>
+                    </div>
+                    <br/>	
+    
+                    <div class="row col-md-11">								
+                            <textarea id="comment" rows="10" cols="60"></textarea>													
+                    </div>							
+                    <br/>
+    
+                    <button type="submit" class="ui green button medium">Create</button>													
+                </form>	
+            </div>
+            
+            <br/><br/><br/><br/>
+        </div>
+    )
+}
+
+export default AgencyNewEvent
