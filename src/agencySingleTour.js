@@ -1,24 +1,9 @@
 import React from 'react'
-import Footer from './Footer'
-import SignupForm from './SignupFormModal'
-import LoginForm from './LoginFormModal'
-import ForgotPassForm from './ForgotPasswordFromModal'
 function agencySingleTour() {
     return (
         <div>
         	<div>
-
-{/*	<!-----------------------------------------Login Form Modal---------------------------------------------------->	*/}
-				<LoginForm/>
-{/* <!-----------------------------------------Forgot password Form Modal---------------------------------------------------->	 */}
-				<ForgotPassForm/>
-{/*	<!--------------------------------------Sign Up Modal Form----------------------------------------------->*/}
-				
-				<SignupForm/>
-		
-{/*	<!------------------------------------Body--------------------------------------------------------------->*/}
 					<br/><br/>
-				
 					<div class="container">										
 						<div class="row">
 							<div class="card" >
@@ -103,10 +88,6 @@ function agencySingleTour() {
 					</div>
 					<br/><br/>
 			
-	
-	
-{/*	<!-- -------------------------------footer------------------------------------------------------------- -->	*/}
-		<Footer/>
 	</div>
         </div>
     )
