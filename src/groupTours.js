@@ -5,6 +5,7 @@ function groupTours()
 {
     const booknowstyle={border:"1px solid #9F000F",color:"white",backgroundImage:"linear-gradient(to right, #F88017, #9F000F)",width:"100px"}
     const viewpstyle={border:"1px solid #483C32",color:"white",backgroundColor:"#483C32"}
+
     return(
         
 	<div>

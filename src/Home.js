@@ -1,8 +1,11 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 
 import Corousel from './Carousel'
 
 function Home() {
+	useEffect(()=>{
+        document.title="Tour Wizard | Home"
+    },[])
     return (
         <div>
       

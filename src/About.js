@@ -1,6 +1,9 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 
 function About() {
+	useEffect(()=>{
+        document.title="Tour Wizard | About"
+    },[])
 	const colsm8style={fontWeight:"bold",paddingTop:"75px"}
 	const cardbodystyle={backgroundColor:"#E5E4E2"}
 	const cardtitlestyle={textAlign:"center",color:"#E42217"}

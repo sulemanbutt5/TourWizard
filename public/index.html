@@ -53,12 +53,19 @@
     
     <script type="text/javascript">
 			document.getElementById("ul").addEventListener("click",function(e) {
-  var tgt = e.target;
-  if (tgt.tagName.toUpperCase() == "LI") {
-    tgt.parentNode.removeChild(tgt); // or tgt.remove();
+        var tgt = e.target;
+        if (tgt.tagName.toUpperCase() == "LI") {
+          tgt.parentNode.removeChild(tgt); // or tgt.remove();
   }
 });
-		</script>
+    </script>
+    <script type="text/javascript">
+    $(function () {
+        $("#oplf").click(function () {
+            $("#modalRegisterForm").modal("hide");
+        });
+    });
+</script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

@@ -1,6 +1,9 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 
 function AgencyProfile() {
+    useEffect(()=>{
+        document.title="Tour Wizard | Agency Profile"
+    },[])
     return (
         
 	<div>	

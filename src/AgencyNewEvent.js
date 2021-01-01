@@ -1,6 +1,9 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 
 function AgencyNewEvent() {
+    useEffect(()=>{
+        document.title="Tour Wizard | Agency New Event"
+    },[])
     return (
         <div>	
 	
@@ -25,7 +28,7 @@ function AgencyNewEvent() {
                         </div>							
                     </div>											
                     <div class="row col-md-12">
-                        <h4 class="card-title"><img src="images/umbrella.png" style={{width:"20px",height:"20px",paddingBottom:"1px",backgroundColor:"yellow"}} alt=""/>&nbsp; Description</h4>
+                        <h4 class="card-title"><img src="images/umbrella.png" style={{width:"20px",height:"20px",paddingBottom:"1px",backgroundColor:"yellow"}} alt=""/>{" "} Description</h4>
                     </div>
                     <br/>																
                     <div class="row col-md-11">
