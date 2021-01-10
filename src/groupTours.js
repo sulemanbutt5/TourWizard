@@ -67,7 +67,7 @@ function groupTours()
                     </article> {/*<!-- card-group-item.// -->*/}
                 </div>
             
-            </div> {/*<!-- col.// -->*/}
+            </div>
             
             
             <div class="col-lg-4 offset-lg-1">

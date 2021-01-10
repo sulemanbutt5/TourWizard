@@ -13,7 +13,7 @@ function AllCustomTours() {
 								<a href={window.location.href} class="list-group-item list-group-item-action flex-column align-items-start">
 								<div class="d-flex w-100 justify-content-between">
 									<h3 class="mb-1">Trip to NARAN</h3>
-									<small class="text-muted">3 days ago</small>
+									<small class="text-muted">1 day ago</small>
 								</div>
 								<p class="mb-1">A <span>5</span> days tour to the <span>Naran</span></p>
 								<small class="text-muted">Budget : <span> 15000</span> -  <span> 25000</span></small>

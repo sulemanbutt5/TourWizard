@@ -16,7 +16,8 @@ function AgencyProfile() {
                 <div className="col-md-3">
                     <div className="sidenav">
                         <Link to='/agencyProfile'><p><strong>My Profile</strong></p></Link>
-                        <Link to='/agencyProfilePassword'><p>Edit Profile</p></Link>
+                        <Link to='/agencyNewEvent'><p>Create Custom Tour</p></Link>
+                        <Link to='/allCustomTours'><p>Your Custom Tours</p></Link>
                         <Link to='/agencyProfilePassword'><p>Password & Security</p></Link>
                     </div>
                 </div>

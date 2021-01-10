@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import AgencyNewEvent from './AgencyNewEvent'
+
 
 function AllAgencyTours() {
     
@@ -18,7 +18,7 @@ function AllAgencyTours() {
                                 <h4 class="card-title">Best of northern Pakistan in Summers</h4>
                                 <p class="card-text">Hunza | Naran | Shogran | Khunjrab China Border | Saiful Mulook | Islamabad All 
                                 Meals Breakfast Lunch Dinner Complete Transportation &amp Tour Guide</p>							
-                                <button onclick={AgencyNewEvent} class="rounded" style={viewbuttonstyle} >View Package</button>
+                                <Link to='/single'><button class="rounded" style={viewbuttonstyle} >View Package</button></Link>
                             </div>
                         </div>
                     </div>
@@ -29,7 +29,7 @@ function AllAgencyTours() {
                             <h4 class="card-title">Best of northern Pakistan in Summers</h4>
                             <p class="card-text">Hunza | Naran | Shogran | Khunjrab China Border | Saiful Mulook | Islamabad All 
                             Meals Breakfast Lunch Dinner Complete Transportation &amp Tour Guide</p>
-                            <button onclick="window.location.href = 'agency_new_event.html';" class="rounded" style={viewbuttonstyle} >View Package</button>
+                            <Link to='/single'><button class="rounded" style={viewbuttonstyle} >View Package</button></Link>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ function AllAgencyTours() {
                                 <h4 class="card-title">Best of northern Pakistan in Summers</h4>
                                 <p class="card-text">Hunza | Naran | Shogran | Khunjrab China Border | Saiful Mulook | Islamabad All 
                                 Meals Breakfast Lunch Dinner Complete Transportation &amp Tour Guide</p>
-                                <Link to='/agencyNewEvent'><button class="rounded" style={viewbuttonstyle} >View Package</button></Link>
+                                <Link to='/single'><button class="rounded" style={viewbuttonstyle} >View Package</button></Link>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ function AllAgencyTours() {
                             <h4 class="card-title">Best of northern Pakistan in Summers</h4>
                             <p class="card-text">Hunza | Naran | Shogran | Khunjrab China Border | Saiful Mulook | Islamabad All 
                             Meals Breakfast Lunch Dinner Complete Transportation &amp Tour Guide</p>
-                            <button onclick="window.location.href = 'agency_new_event.html';" class="rounded" style={viewbuttonstyle} >View Package</button>
+                            <Link to='/single'><button class="rounded" style={viewbuttonstyle} >View Package</button></Link>
                             </div>
                         </div>
                     </div>

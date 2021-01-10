@@ -23,6 +23,7 @@ import AgencyNewEvent from './AgencyNewEvent'
 import LoginFormModal from './LoginFormModal'
 import ForgetPasswordFromModal from './ForgotPasswordFromModal'
 import UserProfile from './UserProfile'
+import UserManual from './UserManual'
  
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
 				<SignupForm/>
 				<Switch>
 					<Route path="/" exact component={Home}/>
+					<Route path='/userManual' component={UserManual}/>
 					<Route path="/agencysingletour" component={agencySingleTour}/>
 					<Route path="/grouptours" component={groupTours}/>
 					<Route path="/about" component={About}/>

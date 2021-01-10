@@ -19,6 +19,9 @@ function Nav() {
 					<Link class="nav-link" style={linkstyle}  to="/grouptours">Group Tours {" "}{" "}</Link>
 				  </li>
 				  <li class="nav-item">
+					<Link class="nav-link" style={linkstyle}  to="/userManual">Prototype Manual {" "}{" "}</Link>
+				  </li>
+				  <li class="nav-item">
 					<Link class="nav-link" style={linkstyle} to="/about">About Us{" "}{" "}{" "}</Link>
 				  </li>
 				  <li class="nav-item">
