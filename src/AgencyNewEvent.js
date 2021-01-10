@@ -6,10 +6,7 @@ function AgencyNewEvent() {
     },[])
     return (
         <div>	
-	
-        {/*	<!------------------------------------Body--------------------------------------------------------------->*/}
-            <br/><br/>
-        
+            <br/><br/>   
             <div class="container">
                 <form>																
                     <div class="row col-md-12">						

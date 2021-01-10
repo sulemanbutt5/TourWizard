@@ -1,5 +1,10 @@
 import React from 'react'
+import {IoCheckmarkDoneOutline} from 'react-icons/io5'
+import {MdDescription} from 'react-icons/md'
+
 function agencySingleTour() {
+
+	const icontextcenter={display: 'flex',alignItems: 'center',background:'lightgrey'}
     return (
         <div>
         	<div>
@@ -10,55 +15,43 @@ function agencySingleTour() {
 							  <img class="card-img-top" src="images/sample.png" height="300px" alt=""/>
 							</div>
 						</div>
-						
+						<br/>
 						<div class="row">
 							<div class="card" >
-							  <div class="card-body">
-								<h4 class="card-title"><img src="images/umbrella.png" alt=""/>{" "} Description</h4>
-								<p class="card-text"><span >Destination:</span> 
-								{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}
-								{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}
-								{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}
-								{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}<em>Beirut</em> <br/>
-								<span >Duration:</span> 
-								{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}
-								{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}
-								{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}
-								{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}<em>5 Days</em>
+							  <div class="card">
+								<h4 class="card-header" style={icontextcenter}><MdDescription/>{" "} Description</h4>
+								Destination: Beirut
 								<br/>
-								<span >Package Price:</span> 
-								{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}
-								{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}
-								{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}<em>PKR 12000</em>
+								Duration: 5 Days
 								<br/>
-								<span >For Booking</span> 
-								{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}
-								{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}
-								{" "}{" "}{" "}{" "}{" "}<em>92 300 2314 345</em></p>
-								
+								Package Price: PKR 12000
+								<br/>
+								For Booking: 92 323 438 3332
+								<br/>
 							  </div>
 							</div>
 						</div>
-						
+						<br/>
 						<div class="row">
 							
 							<div class="card" >
-							  <div class="card-body" >
-								<h4 class="card-title" >Package Inclusions</h4>
+							  <div class="card" >
+							    <h4 class="card-header" style={icontextcenter}>Package Inclusions</h4>
 								<p class="card-text" >
 								
-									<img src="images/success.png" alt=""/>{" "}{" "} All inclusive package <br/>
-									<img src="images/success.png" alt=""/>{" "}{" "} Air tickets emirates airline visa <br/>
-									<img src="images/success.png" alt=""/>{" "}{" "} Luxury transport <br/>
-									<img src="images/success.png" alt=""/>{" "}{" "} All tours <br/>
-									<img src="images/success.png" alt=""/>{" "}{" "} All meals at fine dining restaurants <br/>
-									<img src="images/success.png" alt=""/>{" "}{" "} 4 star luxury hotel in downtown <br/>
+									<IoCheckmarkDoneOutline style={{background:"lightgreen"}}/>All inclusive package <br/>
+									<IoCheckmarkDoneOutline style={{background:"lightgreen"}}/>Air tickets emirates airline visa <br/>
+									<IoCheckmarkDoneOutline style={{background:"lightgreen"}}/>Luxury transport <br/>
+									<IoCheckmarkDoneOutline style={{background:"lightgreen"}}/>All tours <br/>
+									<IoCheckmarkDoneOutline style={{background:"lightgreen"}}/>All meals at fine dining restaurants <br/>
+									<IoCheckmarkDoneOutline style={{background:"lightgreen"}}/>4 star luxury hotel in downtown <br/>
 								
 								</p>
 							  </div>
 							</div>
 						</div>
-						<div class="row">
+						<br/>
+						{/* <div class="row">
 							
 							<div class="card" >
 							  <div class="card-body" >
@@ -70,13 +63,13 @@ function agencySingleTour() {
 								</p>
 							  </div>
 							</div>
-						</div>
+						</div> */}
 						<div class="row">
-							<div class="card" >
-								<div >Departure Date : 25 October 2019</div>
+							<div class="card-header" style={icontextcenter}>
+								<p>Departure Date:  25 October 2021</p>
 							</div>
 						</div>
-						
+						<br/>
 						<div class="row col-md-12" >
 							<div class="col-md-2">
 								<button class="btn btn-danger">DELETE EVENT</button>
@@ -86,7 +79,7 @@ function agencySingleTour() {
 							</div>
 						</div>
 					</div>
-					<br/><br/>
+					<br/>
 			
 	</div>
         </div>

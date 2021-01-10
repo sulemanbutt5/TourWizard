@@ -1,0 +1,26 @@
+Kindly Follow these steps before Starting:
+1- Download and Install the NodeJS from https://nodejs.org/en/download/ .
+2- Open this Project's folder in command prompt.
+3- Write 'npm install' and press Enter.
+3- After a few minutes the libraries will be installed, write 'npm start' and press enter in the CMD of project's folder.
+4- The frontend webpages will open in your default browser.
+
+You can append the following links on the website to open each page:
+
+    LINKS                       for     PAGES
+    ________________________________________________________________
+    "/"                         for     Home Page
+    "/userProfile"              for     User's Profie
+    "/grouptours"               for     groupTours Page
+    "/agencysingletour"         for     agencySingleTour
+    "/agencyProfile"            for     the AgencyProfile
+    "/agencyProfilePassword"    for     Edit AgencyProfilePassword
+    "/allAgencyTours"           for     All Tours created by Agency
+    "/about"                    for     About Page
+    "/registeragency"           for     Register as Agency Page
+    "/settings"                 for     Settings(Change Deatils Page)
+    "/singleCustomTour"         for     A Single CustomTour Page
+    "/single"                   for     Single Default Tour Page
+    "/allCustomTours"           for     All CustomTours Page
+    "/userCustomTour"           for     UserCustomTour
+    "/agencyNewEvent"           for     AgencyNewEvent

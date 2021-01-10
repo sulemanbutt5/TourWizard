@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react'
+import {Link} from 'react-router-dom'
 
 function AgencyRegister() {
     useEffect(()=>{
@@ -6,8 +7,6 @@ function AgencyRegister() {
     },[])
     return (
 <div>
-	
-{/* <!------------------------------------Body---------------------------------------------------------------> */}
     <br/><br/>
 
     <div class="container">
@@ -39,7 +38,7 @@ function AgencyRegister() {
                     </div>
                     <div class="form-group row">
                         <div class="col-md-12" align="center">
-                            <button type="submit" class="btn btn-success">Register</button>
+                            <Link to='/agencyProfile'><button type="submit" class="btn btn-success">Register</button></Link>
                         </div>
                     </div>
                 </form>								

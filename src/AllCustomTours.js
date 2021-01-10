@@ -8,7 +8,7 @@ function AllCustomTours() {
 			<div class="row">							
 				<div class="col-md-12">								
 						<div class="container">						
-							<h1 align="center">Your Custom Events</h1>
+							<h1 align="center">Your Custom Tours</h1>
 							<div class="list-group">										  
 								<a href={window.location.href} class="list-group-item list-group-item-action flex-column align-items-start">
 								<div class="d-flex w-100 justify-content-between">

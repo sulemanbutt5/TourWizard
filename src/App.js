@@ -20,42 +20,47 @@ import UserCustomTour from './UserCustomTour'
 import AgencyProfile from './AgencyProfile'
 import AgencyProfilePassword from './AgencyProfilePassword'
 import AgencyNewEvent from './AgencyNewEvent'
-
+import LoginFormModal from './LoginFormModal'
+import ForgetPasswordFromModal from './ForgotPasswordFromModal'
+import UserProfile from './UserProfile'
+ 
 
 function App() {
   return (
 	  <Router>
-	<div>
-	<div id="head">
-		<Nav/>
-		<LoginForm/>
-		<ForgotPassForm/>	
-		<SignupForm/>
-		<Switch>
-			<Route path="/" exact component={Home}/>
-			<Route path="/agencysingletour" component={agencySingleTour}/>
-			<Route path="/grouptours" component={groupTours}/>
-			<Route path="/about" component={About}/>
-			<Route path="/registeragency" component={AgencyRegister}/>
-			<Route path="/settings" component={Settings}/>
-			<Route path="/singleCustomTour" component={SingleCustomTour}/>
-			<Route path="/single" component={Single}/>
-			<Route path="/allCustomTours" component={AllCustomTours}/>
-			<Route path="/allAgencyTours" component={AllAgencyTours}/>
-			<Route path="/userCustomTour" component={UserCustomTour}/>
-			<Route path="/agencyProfile" component={AgencyProfile}/>
-			<Route path="/agencyNewEvent" component={AgencyNewEvent}/>
-			<Route path="/agencyProfilePassword" component={AgencyProfilePassword}/>
-			
-			<Route component={Error} />
+		<div>
+			<div id="head">
+				<Nav/>
+				<LoginForm/>
+				<ForgotPassForm/>	
+				<SignupForm/>
+				<Switch>
+					<Route path="/" exact component={Home}/>
+					<Route path="/agencysingletour" component={agencySingleTour}/>
+					<Route path="/grouptours" component={groupTours}/>
+					<Route path="/about" component={About}/>
+					<Route path="/registeragency" component={AgencyRegister}/>
+					<Route path="/settings" component={Settings}/>
+					<Route path="/singleCustomTour" component={SingleCustomTour}/>
+					<Route path="/single" component={Single}/>
+					<Route path="/allCustomTours" component={AllCustomTours}/>
+					<Route path="/allAgencyTours" component={AllAgencyTours}/>
+					<Route path="/userCustomTour" component={UserCustomTour}/>
+					<Route path="/agencyProfile" component={AgencyProfile}/>
+					<Route path="/userProfile" component={UserProfile}/>
+					<Route path="/agencyNewEvent" component={AgencyNewEvent}/>
+					<Route path="/agencyProfilePassword" component={AgencyProfilePassword}/>
+					<Route path="/agencyRegister" component={AgencyRegister}/>
+					<Route path="/forgetPassword" component={ForgetPasswordFromModal}/>
+					<Route path="/loginForm" component={LoginFormModal}/>
+					<Route component={Error} />
 
-			
-		</Switch>
-		<Footer/>
-	</div>
-
-</div>
-</Router>
+					
+				</Switch>
+				<Footer/>
+			</div>
+		</div>
+	</Router>
     )
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 function AgencyProfilePassword() {
     return (
         <div>			
@@ -8,9 +8,9 @@ function AgencyProfilePassword() {
 		<div class="row">
 			<div class="col-md-3">
 				<div class="sidenav">
-					<a href="#about">My Profile</a>
-					<a href="#services">Edit Profile</a>
-					<a href="#clients"><strong>Password & Security</strong></a>  
+					<Link to='/agencyProfile'><p><strong>My Profile</strong></p></Link>
+					<Link to='/agencyProfilePassword'><p>Edit Profile</p></Link>
+                	<Link to='/agencyProfilePassword'><p>Password & Security</p></Link>
 				</div>
 			</div>
 			<div class="col-md-9">

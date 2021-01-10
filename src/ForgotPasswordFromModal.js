@@ -1,4 +1,5 @@
 import React from 'react'
+import {FaEnvelope} from 'react-icons/fa'
 
 function ForgotPasswordFromModal() {
     return (
@@ -17,16 +18,16 @@ function ForgotPasswordFromModal() {
 					<div class="col text-center">
 						<h5 >Recover your password</h5>
 					</div>
-				  
+				  	<br/>
 					<div class="md-form mb-4">
-					  <i class="fas fa-envelope prefix grey-text"></i>
-					  <input type="email" id="defaultForm-email" class="form-control validate" placeholder="Username"/>
+					<FaEnvelope size={20} style={{fill: '#4a4646'}}/>
+					  <input type="email" id="defaultForm-email" class="form-control validate" placeholder="Email"/>
 					</div>
 
 					
 				  </div>
 				  <div class="modal-footer d-flex justify-content-center flex-wrap">
-					{" "}{" "}<button class="btn btn-default">Send Me Password</button>
+					{" "}{" "}<button class="btn btn-info">Send Me Password</button>
 					<br/>
 				  </div>
 				</div>

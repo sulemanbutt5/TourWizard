@@ -5,10 +5,6 @@ function Settings() {
     return (
         
 <div>
-    
-
-{/* <!------------------------------------Body---------------------------------------------------------------> */}
-        
     <br/>
     <Link class="nav-link" to="/settings">
     <h2 class="text-center" style={{color:"black",fontWeight:"bold"}}><img src="images/settings.jpg" class="rounded-circle float right" width="30" height="30" alt="" />{" "}SETTINGS</h2>
@@ -18,6 +14,7 @@ function Settings() {
     
     
     <div class="row" >
+    
         <div class="col-md-4"  style={{marginLeft:"150px"}}>
 
             <span><h3 class="text-center" style={{color:"black",fontWeight:"bold"}}>Password & Security</h3></span><br/>
@@ -37,7 +34,7 @@ function Settings() {
                     <input type="password" class="form-control"  placeholder="Password"/>
                 </div>
                 <div class="text-center" >
-                    <button type="submit" class="btn btn-primary" style={{backgroundColor:"black",width:"200px"}}>Update</button>
+                    <Link to='/userProfile'><button type="submit" class="btn btn-primary" style={{backgroundColor:"black",width:"200px"}}>Update</button></Link>
                 </div>
             </form><br/><br/>
         </div>
@@ -54,7 +51,7 @@ function Settings() {
                 <input type="text" class="form-control" placeholder="Enter Last Name"/>
                 </div>
                 <div class="text-center" >
-                <button type="submit" class="btn btn-primary" style={{backgroundColor:"black",width:"200px"}}>Update</button>
+                    <Link to='/userProfile'><button type="submit" class="btn btn-primary" style={{backgroundColor:"black",width:"200px"}}>Update</button></Link>
                 </div>
             </form>
         </div>

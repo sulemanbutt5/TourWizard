@@ -1,4 +1,6 @@
 import React from 'react'
+import {FaEnvelope,FaLock} from 'react-icons/fa'
+import {Link} from 'react-router-dom'
 
 
 function LoginFormModal() {
@@ -19,12 +21,12 @@ function LoginFormModal() {
 					</div>
 				  
 					<div class="md-form mb-4">
-					  <i class="fas fa-envelope prefix grey-text"></i>
+					  <FaEnvelope size={20} style={{fill: '#4a4646'}}/>
 					  <input type="email" id="defaultForm-email" class="form-control validate" placeholder="Your email"/>
 					</div>
 
 					<div class="md-form mb-4">
-					  <i class="fas fa-lock prefix grey-text"></i>
+					  <FaLock size={20} style={{fill: '#4a4646'}}/>
 					  <input type="password" id="defaultForm-pass" class="form-control validate" placeholder="Your password"/>
 					</div>
 
@@ -34,7 +36,9 @@ function LoginFormModal() {
 						{" "}{" "}{" "}{" "}{" "}
 						<a class="nav-link" data-toggle="modal" data-target="#modalForgotForm" href={window.location.href}>Forgotten password?</a>
 					</div>
-					
+					<div class="modal-main d-flex justify-content-center flex-wrap">
+						<Link to='/'><button class="btn btn-success" >Sign In</button></Link>
+				  	</div>	
 				  </div>
 				  <div class="modal-footer d-flex justify-content-center flex-wrap">
 					<a data-toggle="modal" data-target="#modalRegisterForm" href={window.location.href}><button class="btn btn-default" >Cick Here for Sign Up</button></a>

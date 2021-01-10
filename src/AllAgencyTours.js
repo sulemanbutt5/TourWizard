@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import AgencyNewEvent from './AgencyNewEvent'
 
 function AllAgencyTours() {
     
@@ -11,18 +13,18 @@ function AllAgencyTours() {
                 <div class="row">																									
                     <div class="col-lg-5 offset-lg-1">
                         <div class="card" style={{marginBottom: "20px"}}>
-                            <img class="card-img-top" src="sample.png" width="30px" height="200px" alt=""/>
+                            <img class="card-img-top" src="..\images\sample.png" width="30px" height="200px" alt=""/>
                             <div class="card-body">
                                 <h4 class="card-title">Best of northern Pakistan in Summers</h4>
                                 <p class="card-text">Hunza | Naran | Shogran | Khunjrab China Border | Saiful Mulook | Islamabad All 
                                 Meals Breakfast Lunch Dinner Complete Transportation &amp Tour Guide</p>							
-                                <button onclick="window.location.href = 'agency_new_event.html';" class="rounded" style={viewbuttonstyle} >View Package</button>
+                                <button onclick={AgencyNewEvent} class="rounded" style={viewbuttonstyle} >View Package</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <div class="card" >
-                            <img class="card-img-top" src="sample.png" width="30px" height="200px" alt=""/>
+                            <img class="card-img-top" src="..\images\sample.png" width="30px" height="200px" alt=""/>
                             <div class="card-body">
                             <h4 class="card-title">Best of northern Pakistan in Summers</h4>
                             <p class="card-text">Hunza | Naran | Shogran | Khunjrab China Border | Saiful Mulook | Islamabad All 
@@ -36,18 +38,18 @@ function AllAgencyTours() {
                 <div class="row">																									
                     <div class="col-lg-5 offset-lg-1">
                         <div class="card" style={{marginBottom: "20px"}}>
-                            <img class="card-img-top" src="sample.png" width="30px" height="200px" alt=""/>
+                            <img class="card-img-top" src="..\images\sample.png" width="30px" height="200px" alt=""/>
                             <div class="card-body">
                                 <h4 class="card-title">Best of northern Pakistan in Summers</h4>
                                 <p class="card-text">Hunza | Naran | Shogran | Khunjrab China Border | Saiful Mulook | Islamabad All 
                                 Meals Breakfast Lunch Dinner Complete Transportation &amp Tour Guide</p>
-                                <button onclick="window.location.href = 'agency_new_event.html';" class="rounded" style={viewbuttonstyle} >View Package</button>
+                                <Link to='/agencyNewEvent'><button class="rounded" style={viewbuttonstyle} >View Package</button></Link>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <div class="card" >
-                            <img class="card-img-top" src="sample.png" width="30px" height="200px" alt=""/>
+                            <img class="card-img-top" src="..\images\sample.png" width="30px" height="200px" alt=""/>
                             <div class="card-body">
                             <h4 class="card-title">Best of northern Pakistan in Summers</h4>
                             <p class="card-text">Hunza | Naran | Shogran | Khunjrab China Border | Saiful Mulook | Islamabad All 

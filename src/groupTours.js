@@ -3,16 +3,13 @@ import {Link} from 'react-router-dom'
 
 function groupTours()
 {
-    const booknowstyle={border:"1px solid #9F000F",color:"white",backgroundImage:"linear-gradient(to right, #F88017, #9F000F)",width:"100px"}
-    const viewpstyle={border:"1px solid #483C32",color:"white",backgroundColor:"#483C32"}
+    const booknowstyle={border:"1px solid #9F000F",color:"white",backgroundImage:"linear-gradient(to right, #F88017, #9F000F)",width:"100px",height:"30px"}
+    const viewpstyle={border:"1px solid #483C32",color:"white",backgroundColor:"#483C32",width:"150px",height:"30px"}
 
     return(
         
 	<div>
-    
-{/* <!------------------------------------Body---------------------------------------------------------------> */}
-    <br/><br/>
-            
+    <br/><br/>            
     <div class="container" style={{marginLeft:"30px"}}>
         <div class="row">
             <div class="col-sm-3" style={{paddingLeft:"0px"}}>
@@ -79,9 +76,11 @@ function groupTours()
                       <div class="card-body">
                         <h4 class="card-title">Best of northern Pakistan in Summers</h4>
                         <p class="card-text">Hunza | Naran | Shogran | Khunjrab China Border | Saiful Mulook | Islamabad All 
-                        Meals Breakfast Lunch Dinner Complete Transportation &amp Tour Guide</p>							
+                        Meals Breakfast Lunch Dinner Complete Transportation &amp Tour Guide</p>	
+                        <div style={{display:'flex',flexDirection:'row'}}>						
                         <Link to="/agencysingletour"><button class = "rounded" style={booknowstyle}>Book Now</button></Link>
-                        <Link to="/agencysingletour"><button class="rounded" style={viewpstyle}>View Package</button></Link>
+                        <Link to="/single"><button class="rounded" style={viewpstyle}>View Package</button></Link>
+                        </div>
                       </div>
                 </div>
             </div>
@@ -92,8 +91,10 @@ function groupTours()
                     <h4 class="card-title">Best of northern Pakistan in Summers</h4>
                     <p class="card-text">Hunza | Naran | Shogran | Khunjrab China Border | Saiful Mulook | Islamabad All 
                     Meals Breakfast Lunch Dinner Complete Transportation &amp Tour Guide</p>
+                    <div style={{display:'flex',flexDirection:'row'}}>						
                     <Link to="/agencysingletour"><button class = "rounded" style={booknowstyle}>Book Now</button></Link>
-                    <Link to="/agencysingletour"><button class="rounded" style={viewpstyle}>View Package</button></Link>
+                    <Link to="/single"><button class="rounded" style={viewpstyle}>View Package</button></Link>
+                    </div>
                   </div>
                 </div>
             </div>
@@ -109,8 +110,10 @@ function groupTours()
                         <h4 class="card-title">Best of northern Pakistan in Summers</h4>
                         <p class="card-text">Hunza | Naran | Shogran | Khunjrab China Border | Saiful Mulook | Islamabad All 
                         Meals Breakfast Lunch Dinner Complete Transportation &amp Tour Guide</p>
+                        <div style={{display:'flex',flexDirection:'row'}}>						
                         <Link to="/agencysingletour"><button class = "rounded" style={booknowstyle}>Book Now</button></Link>
-                        <Link to="/agencysingletour"><button class="rounded" style={viewpstyle}>View Package</button></Link>		  							</div>
+                        <Link to="/single"><button class="rounded" style={viewpstyle}>View Package</button></Link>		  							</div>
+                        </div>
                 </div>
             </div>
             <div class="col-lg-5 offset-lg-1">
@@ -120,8 +123,10 @@ function groupTours()
                     <h4 class="card-title">Best of northern Pakistan in Summers</h4>
                     <p class="card-text">Hunza | Naran | Shogran | Khunjrab China Border | Saiful Mulook | Islamabad All 
                     Meals Breakfast Lunch Dinner Complete Transportation &amp Tour Guide</p>
+                    <div style={{display:'flex',flexDirection:'row'}}>						
                     <Link to="/agencysingletour"><button class = "rounded" style={booknowstyle}>Book Now</button></Link>
-                    <Link to="/agencysingletour"><button class="rounded" style={viewpstyle}>View Package</button></Link>								  </div>
+                    <Link to="/single"><button class="rounded" style={viewpstyle}>View Package</button></Link>								  </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -6,7 +6,6 @@ function Single() {
 
         <div>
 
-	{/* <!------------------------------------Body---------------------------------------------------------------> */}
         <br/><br/>
 
         <div class="container">
@@ -19,7 +18,7 @@ function Single() {
             </div>
             <div class="row">
                 <div class="card" style={{left:"0px",width:"45rem"}}>
-                    <img class="card-img-top" src="sample.png" height="300px" alt=""/>
+                    <img class="card-img-top" src="../images/sample.png" height="300px" alt=""/>
                 </div>
                 
                 <div class="card" style={{left:"75px",width:"20rem",borderColor:"black",height:"120px"}}>
@@ -64,12 +63,12 @@ function Single() {
                     <h4 class="card-title" style={{backgroundColor:"#2B3856",color:"white",padding:"5px"}} >Package Inclusions</h4>
                     <p class="card-text" style={{color:"black",fontSize:"16px"}} >
                     
-                        <img src="images/success.png" style={imgstyle} alt=""/>{" "}{" "} All inclusive package <br/>
-                        <img src="images/success.png" style={imgstyle} alt=""/>{" "}{" "} Air tickets emirates airline visa <br/>
-                        <img src="images/success.png" style={imgstyle} alt=""/>{" "}{" "} Luxury transport <br/>
-                        <img src="images/success.png" style={imgstyle} alt=""/>{" "}{" "} All tours <br/>
-                        <img src="images/success.png" style={imgstyle} alt=""/>{" "}{" "} All meals at fine dining restaurants <br/>
-                        <img src="images/success.png" style={imgstyle} alt=""/>{" "}{" "} 4 star luxury hotel in downtown <br/>
+                        <img src="../images/success.png" style={imgstyle} alt=""/>{" "}{" "} All inclusive package <br/>
+                        <img src="../images/success.png" style={imgstyle} alt=""/>{" "}{" "} Air tickets emirates airline visa <br/>
+                        <img src="../images/success.png" style={imgstyle} alt=""/>{" "}{" "} Luxury transport <br/>
+                        <img src="../images/success.png" style={imgstyle} alt=""/>{" "}{" "} All tours <br/>
+                        <img src="../images/success.png" style={imgstyle} alt=""/>{" "}{" "} All meals at fine dining restaurants <br/>
+                        <img src="../images/success.png" style={imgstyle} alt=""/>{" "}{" "} 4 star luxury hotel in downtown <br/>
                     
                     </p>
                     </div>
@@ -90,7 +89,7 @@ function Single() {
             </div>
             <div class="row">
                 <div class="card" style={{left:"0px",borderColor:"white"}}>
-                    <div style={{fontWeight:"bold",fontSize:"18px"}}>Departure Date : 25 October 2019</div>
+                    <div style={{fontWeight:"bold",fontSize:"18px"}}>Departure Date : 30 October 2021</div>
                 </div>
             </div>
             

@@ -1,13 +1,22 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function UserCustomTour() {
     return (
 <div>								
 	<br/><br/>
 	<div class="container">
+	<div class='row'>
+		<div className="col-md-3">
+			<div className="sidenav">
+				<Link to='/userProfile'><p><strong>My Profile</strong></p></Link>
+				<Link to='/settings'><p>Edit Profile</p></Link>
+				<Link to='/userCustomTour'><p>Requet for a Tour</p></Link>
+			</div>
+        </div>
 		<form>																
 			<div class="row col-md-12">						
-				<h2>Create a custom event request</h2>
+				<h2>Create a custom tour request</h2>
 				<br/><br/>						
 			</div>	
 			<br/>																						
@@ -59,9 +68,10 @@ function UserCustomTour() {
 				</div>
 			</div>							
 			<br/>
-			<button type="submit" class="ui green button medium">Create</button>
+			<Link to='/userProfile'><button type="submit" class="ui green button medium">Create</button></Link>
 													
 		</form>	
+		</div>
 	</div>
 	<br/><br/><br/><br/>
 </div>
