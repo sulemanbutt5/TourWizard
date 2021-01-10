@@ -44,7 +44,7 @@ function SignupFormModal() {
 				  </div>
 				  <div className="modal-footer d-flex justify-content-start flex-wrap">
 					{" "}{" "}{" "}{" "}
-					<Link to='/'><button className="btn btn-success">Create Account</button></Link>
+					<Link to='/userProfile'><button className="btn btn-success">Create Account</button></Link>
 					{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}
 					{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}
 					{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}{" "}

@@ -37,7 +37,7 @@ function LoginFormModal() {
 						<a class="nav-link" data-toggle="modal" data-target="#modalForgotForm" href={window.location.href}>Forgotten password?</a>
 					</div>
 					<div class="modal-main d-flex justify-content-center flex-wrap">
-						<Link to='/'><button class="btn btn-success" >Sign In</button></Link>
+						<Link to='/userProfile'><button class="btn btn-success" >Sign In</button></Link>
 				  	</div>	
 				  </div>
 				  <div class="modal-footer d-flex justify-content-center flex-wrap">

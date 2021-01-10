@@ -1,4 +1,8 @@
 Kindly Follow these steps before Starting:
+
+* You can check my prototype without any installation at https://tourwiz.netlify.app
+
+If you want to run the code on your PC then follow the following instructions:
 1- Download and Install the NodeJS from https://nodejs.org/en/download/ .
 2- Open this Project's folder in command prompt.
 3- Write 'npm install' and press Enter.
