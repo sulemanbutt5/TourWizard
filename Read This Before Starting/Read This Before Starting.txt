@@ -10,6 +10,10 @@ If you want to run the prototype on your PC then follow the following instructio
 5- Write 'npm start' and press enter in the Command prompt of "tourwizard" folder.
 6- The prototype (deliverable 3) pages will be opened in your default browser.
 
+Group Member Details:
+1- M. Suleman Butt (BSEF17M510)
+2- Umer Khalid (BSEF17M523)
+
 You can append the following links on the website to open each page (if installed on pc) :
 
     LINKS                       for     PAGES
