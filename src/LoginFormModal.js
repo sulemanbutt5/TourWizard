@@ -1,9 +1,12 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {FaEnvelope,FaLock} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 
 
 function LoginFormModal() {
+    useEffect(()=>{
+        document.title="Tour Wizard | Log In"
+    },[])
     return (
         <div>
             <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

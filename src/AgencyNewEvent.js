@@ -1,20 +1,22 @@
-import React,{useEffect} from 'react'
-
+import React from 'react'
+import {Link} from 'react-router-dom'
+import AgencyProfileLinkComponent from './AgencyProfileLinkComponent'
 function AgencyNewEvent() {
-    useEffect(()=>{
-        document.title="Tour Wizard | Agency New Event"
-    },[])
+
     return (
-        <div>	
-            <br/><br/>   
-            <div class="container">
+    <div>	
+        <br/> 
+        <br/>
+        <div class="container">
+            <div class='row'>
+                <AgencyProfileLinkComponent/>                        
                 <form>																
                     <div class="row col-md-12">						
                         <h3>Add New Event</h3>
                         <br/><br/>						
                     </div>						
                     <div class="row col-md-12">	
-                        <div class="jumbotron col-md-6" align="center">
+                        <div class="jumbotron col-md-10" align="center">
                             <img src="images/upload_image.png" class="img-fluid" alt=""/>												
                                 <div class="form-group">
                                     <div class="upload-btn-wrapper">
@@ -28,38 +30,37 @@ function AgencyNewEvent() {
                         <h4 class="card-title"><img src="images/umbrella.png" style={{width:"20px",height:"20px",paddingBottom:"1px",backgroundColor:"yellow"}} alt=""/>{" "} Description</h4>
                     </div>
                     <br/>																
-                    <div class="row col-md-11">
-                        <h5 class="col-md-2">Title</h5>										
+                    <div class="row col-md-11" style={{display:'flex',flexDirection:'row',alignItems:'center',justifyContent:'center'}}>
+                        <p class="col-md-2" style={{fontWeight:'bold'}}>Title</p>										
                         <div class="col-md-4">
                             <input type="text" class="form-control" name="title" />
                         </div>
-    
-                        <h5 class="col-md-2">Destination</h5>										
+                        <p class="col-md-2" style={{fontWeight:'bold'}}>Destination</p>										
                         <div class="col-md-4">
                             <input type="text" class="form-control" name="destination"/>
                         </div>
                     </div>	
                     <br/>								
-                    <div class="row col-md-11">
-                        <h5 class="col-md-3">Departure Date</h5>										
-                        <div class="col-md-3">
+                    <div class="row col-md-11" style={{display:'flex',flexDirection:'row',alignItems:'center',justifyContent:'center'}}>
+                        <p class="col-md-2" style={{fontWeight:'bold'}}>Departure Date</p>										
+                        <div class="col-md-4">
                             <input type="date" class="form-control" name="date" />
                         </div>
-                        <h5 class="col-md-2">Package Price</h5>										
+                        <p class="col-md-2" style={{fontWeight:'bold'}}>Package Price</p>										
                         <div class="col-md-4">
-                            <input type="text" class="form-control" name="price"/>
+                            <input type="number" class="form-control" name="price"/>
                         </div>
                     </div>		
                     <br/>
                     <div class="row col-md-11">
-                        <h5 class="col-md-2">Duration(Days)</h5>										
+                        <p class="col-md-2" style={{fontWeight:'bold'}}>Duration (Days)</p>										
                         <div class="col-md-4">
-                            <input type="text" class="form-control" name="days" />
+                            <input type="number" class="form-control" name="days" />
                         </div>									
                     </div>	
                     <br/>
                     <div class="row col-md-11">			
-                        <h5 class="card-title" style={{backgroundColor:"#2B3856",color:"white",padding:"5px"}} >Package Inclusions</h5>
+                        <p class="card-title" style={{backgroundColor:"#2B3856",color:"white",padding:"5px",fontWeight:'bold'}} >Package Inclusions</p>
                     </div>
                     <br/>
     
@@ -87,12 +88,15 @@ function AgencyNewEvent() {
                     </div>							
                     <br/>
     
-                    <button type="submit" class="ui green button medium">Create</button>													
+                    <Link to='/agencyProfile'><button type="submit" class="ui green button medium">Create</button></Link>												
                 </form>	
             </div>
-            
-            <br/><br/><br/><br/>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
     )
 }
 

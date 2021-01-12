@@ -1,12 +1,14 @@
 import React from 'react'
+import AgencyProfileLinkComponent from './AgencyProfileLinkComponent'
 
 function AllCustomTours() {
     return (
         <div>	
 		<br/><br/>				
 		<div class="container">
-			<div class="row">							
-				<div class="col-md-12">								
+			<div class="row">
+				<AgencyProfileLinkComponent/>
+				<div class="col-md-9">								
 						<div class="container">						
 							<h1 align="center">Your Custom Tours</h1>
 							<div class="list-group">										  
@@ -31,7 +33,7 @@ function AllCustomTours() {
 					</div>												
 			</div>						
 		</div>							
-		<br/><br/><br/><br/><br/>		
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>		
 </div>
     )
 }

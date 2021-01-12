@@ -1,18 +1,12 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import AgencyProfileLinkComponent from './AgencyProfileLinkComponent'
 function AgencyProfilePassword() {
     return (
         <div>			
 	<br/><br/>				
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
-				<div class="sidenav">
-					<Link to='/agencyProfile'><p><strong>My Profile</strong></p></Link>
-					<Link to='/agencyNewEvent'><p>Create Custom Tour</p></Link>
-                	<Link to='/agencyProfilePassword'><p>Password & Security</p></Link>
-				</div>
-			</div>
+			<AgencyProfileLinkComponent/>
 			<div class="col-md-9">
 				<div class="my-card">
 					<div class="container">						

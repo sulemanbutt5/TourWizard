@@ -1,11 +1,9 @@
-import React,{useEffect} from 'react'
-import {Link} from 'react-router-dom'
+import React from 'react'
 import {FaFacebookF,FaTwitter,FaInstagram} from 'react-icons/fa'
+import AgencyProfileLinkComponent from './AgencyProfileLinkComponent'
 
 function AgencyProfile() {
-    useEffect(()=>{
-        document.title="Tour Wizard | Agency Profile"
-    },[])
+
     const icontextcenter={display: 'flex',alignItems: 'center'}
     return (
         
@@ -13,14 +11,7 @@ function AgencyProfile() {
         <br/><br/>				
         <div className="container">
             <div className="row">
-                <div className="col-md-3">
-                    <div className="sidenav">
-                        <Link to='/agencyProfile'><p><strong>My Profile</strong></p></Link>
-                        <Link to='/agencyNewEvent'><p>Create Custom Tour</p></Link>
-                        <Link to='/allCustomTours'><p>Your Custom Tours</p></Link>
-                        <Link to='/agencyProfilePassword'><p>Password & Security</p></Link>
-                    </div>
-                </div>
+                <AgencyProfileLinkComponent/>
                 <div className="col-md-9">
                     <div className="my-card">
                         <div className="container">						

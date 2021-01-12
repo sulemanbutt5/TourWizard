@@ -1,8 +1,11 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import {FaUser,FaUserAlt,FaEnvelope,FaLock} from 'react-icons/fa'
 
 function SignupFormModal() {
+    useEffect(()=>{
+        document.title="Tour Wizard | Sign Up"
+    },[])
     return (
         <div>
             <div className="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

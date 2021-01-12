@@ -1,15 +1,16 @@
 Kindly Follow these steps before Starting:
 
-* You can check my prototype without any installation at https://tourwiz.netlify.app
+* You can check this prototype (deliverable 3) without any installation at https://tourwiz.netlify.app
 
-If you want to run the code on your PC then follow the following instructions:
-1- Download and Install the NodeJS from https://nodejs.org/en/download/ .
-2- Open this Project's folder in command prompt.
-3- Write 'npm install' and press Enter.
-3- After a few minutes the libraries will be installed, write 'npm start' and press enter in the CMD of project's folder.
-4- The frontend webpages will open in your default browser.
+If you want to run the prototype on your PC then follow the following instructions:
+1- Download and Install the NodeJS without chocolatey from -> https://nodejs.org/en/download/ .
+2- Open the folder named "tourwizard" in command prompt.
+3- Write 'npm install' and press Enter in command prompt.
+4- After a few minutes the libraries will be installed.
+5- Write 'npm start' and press enter in the Command prompt of "tourwizard" folder.
+6- The prototype (deliverable 3) pages will be opened in your default browser.
 
-You can append the following links on the website to open each page:
+You can append the following links on the website to open each page (if installed on pc) :
 
     LINKS                       for     PAGES
     ________________________________________________________________

@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import UserProfileLinkComponent from './UserProfileLinkComponent'
 
 function UserCustomTour() {
     return (
@@ -7,13 +8,7 @@ function UserCustomTour() {
 	<br/><br/>
 	<div class="container">
 	<div class='row'>
-		<div className="col-md-3">
-			<div className="sidenav">
-				<Link to='/userProfile'><p><strong>My Profile</strong></p></Link>
-				<Link to='/settings'><p>Edit Profile</p></Link>
-				<Link to='/userCustomTour'><p>Requet for a Tour</p></Link>
-			</div>
-        </div>
+		<UserProfileLinkComponent/>
 		<form>																
 			<div class="row col-md-12">						
 				<h2>Create a custom tour request</h2>

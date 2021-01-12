@@ -1,7 +1,10 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {FaEnvelope} from 'react-icons/fa'
 
 function ForgotPasswordFromModal() {
+    useEffect(()=>{
+        document.title="Tour Wizard | Forgot Password"
+    },[])
     return (
         <div>
             <div class="modal fade" id="modalForgotForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
